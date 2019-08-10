@@ -7,10 +7,14 @@ knit: (function(input_file, encoding) {
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "ricardo mayer"
 date: "8/10/2019"
-output: html_document
+output:
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
 ---
 
 
+<img src="cien-logo.png" style="max-width=10%;position:absolute;top:0;right:0;" />
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -18,7 +22,7 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 ```
 
 ## Nombres
-
+tetsxsta
 
 ```{r cars}
 summary(cars)
