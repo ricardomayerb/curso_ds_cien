@@ -7,3 +7,7 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Data wrangling"
+      href: intro_dw.html
+      
+      
