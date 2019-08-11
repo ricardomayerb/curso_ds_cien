@@ -31,7 +31,7 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 htmltools::img(src = knitr::image_uri("cien-logo.png"), 
                alt = 'logo', 
                style = 'position:absolute; top:0; right:0; padding:10px;
-                     max-height:25%; max-width:25%;')
+                     max-height:20%; max-width:20%;')
 ```
 
 
@@ -58,7 +58,7 @@ filter(flights, month == 1, day == 1)
 
 ## Viz
 
-An example plot
+An example plot with color
 
 ```{r mpgplot}
 ggplot(data = mpg) + 
