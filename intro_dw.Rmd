@@ -21,22 +21,36 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 ```
 
-## Nombres
-tetsxsta
-
-```{r cars}
-summary(cars)
+```{r loadlibs, include=FALSE}
+library(tidyverse)
 ```
+
+
+## Nombres
+To explore the basic data manipulation verbs of dplyr, we’ll use nycflights13::flights. This data frame contains all 336,776 flights that departed from New York City in 2013. The data comes from the US Bureau of Transportation Statistics, and is documented in ?flights
+
+
+```{r flights}
+library(nycflights13)
+flights
+```
+
+here is a filtering example
+
+```{r filt}
+filter(flights, month == 1, day == 1)
+```
+
 
 ## Columnas
 
-You can also embed plots, for example:
+An example plot
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r mpgplot}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, color = class))
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-## Filas
-
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+  
