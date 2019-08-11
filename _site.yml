@@ -7,7 +7,11 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Data wrangling"
+    - text: "DW cayman"
       href: intro_dw.html
+    - text: "DW tactile"
+      href: intro_dw_tactile.html
+    - text: "DW leonids"
+      href: intro_dw_leonids.html
       
       

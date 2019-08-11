@@ -107,7 +107,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<link rel="stylesheet" href="intro_dw_files/style.css" type="text/css" />
+<link rel="stylesheet" href="intro_dw_tactile_files/style.css" type="text/css" />
 
 
 
@@ -120,15 +120,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<section class="page-header">
-<h1 class="title toc-ignore project-name">Introducción a data wrangling</h1>
-<h4 class="author project-author">ricardo mayer</h4>
-<h4 class="date project-date">8/10/2019</h4>
-</section>
+<div id="container">
+<div class="inner">
+<header>
+<h1 class="title toc-ignore">Introducción a data wrangling</h1>
+<h3 class="author">ricardo mayer</h3>
+<h3 class="date">8/10/2019</h3>
+</header>
+
+<hr>
 
 
 
-<section class="main-content">
 <p><img src="cien-logo.png" style="max-width=10%;position:absolute;top:0;right:0;" /></p>
 <div id="printing-tibbles" class="section level2">
 <h2>Printing tibbles</h2>
@@ -177,10 +180,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>An example plot</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span></a>
 <a class="sourceLine" id="cb5-2" title="2"><span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">color =</span> class))</a></code></pre></div>
-<p><img src="intro_dw_files/figure-html/mpgplot-1.png" /><!-- --></p>
+<p><img src="intro_dw_tactile_files/figure-html/mpgplot-1.png" /><!-- --></p>
 <p>ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color = class))</p>
 </div>
-</section>
+</div>
+</div>
 
 
 
