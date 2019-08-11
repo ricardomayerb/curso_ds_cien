@@ -9,11 +9,16 @@ output:
 ---
 
 
-<img src="cien-logo.png" style="max-width=10%;position:absolute;top:0;right:0;" />
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri("cien-logo.png"), 
+               alt = 'logo', 
+               style = 'position:absolute; top:0; right:0; padding:5px;
+                     max-height:20%; max-width:20%;')
 ```
 
 ```{r loadlibs, include=FALSE}
