@@ -13,13 +13,27 @@ output:
     highlight: github
 ---
 
+<!-- ```{r, out.width='25%', fig.align='right', echo=FALSE} -->
+<!-- knitr::include_graphics('cien-logo.png') -->
+<!-- ``` -->
 
-<img src="cien-logo.png" style="max-width=5%;position:absolute;top:0;right:0;" />
+<!-- ![logo](cien-logo.png) -->
+
+<!-- <img src="cien-logo.png" style="width=100;position:fixed;top:0;right:0;" /> -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 ```
+
+
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri("cien-logo.png"), 
+               alt = 'logo', 
+               style = 'position:absolute; top:0; right:0; padding:10px;
+                     max-height:25%; max-width:25%;')
+```
+
 
 ```{r loadlibs, include=FALSE}
 library(tidyverse)
