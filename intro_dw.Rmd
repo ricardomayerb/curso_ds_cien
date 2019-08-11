@@ -14,7 +14,7 @@ output:
 ---
 
 
-<img src="cien-logo.png" style="max-width=10%;top:0;right:0;" />
+<img src="cien-logo.png" style="max-width=5%;position:absolute;top:0;right:0;" />
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
