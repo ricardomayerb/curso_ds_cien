@@ -14,7 +14,9 @@ navbar:
     - text: "DW leonids"
       href: intro_dw_leonids.html
     - text: "Estadística, clase 1"
-      href: clase_1.html
+      href: e_clase_1.html
+    - text: "Estadística, clase 1"
+      href: ie_clase_1.html
       
       
       

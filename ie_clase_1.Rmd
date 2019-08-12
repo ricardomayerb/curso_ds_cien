@@ -1,0 +1,31 @@
+---
+title: "IE, clase 1"
+author: "ricardo mayer"
+date: "8/12/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Variables Aleatorias
+
+- Esta clase: Cap 5 de A&S 2008
+- Qué es una variable aleatoria
+- Variable aleatoria continua
+- Variable aleatoria discreta
+
+
+
+## Valor esperado y varianza
+
+- Valor esperado
+- Varianza
+- Desviación estándar o típica
+
+## Distribución de probabilidad discreta
+
+
+- 
+- 
