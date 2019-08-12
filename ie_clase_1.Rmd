@@ -23,9 +23,18 @@ knitr::opts_chunk$set(echo = FALSE)
 - Valor esperado
 - Varianza
 - Desviación estándar o típica
+- Manual, Excel-manual, R-manual
 
-## Distribución de probabilidad discreta
 
+## Distribución de probabilidad binomial
 
-- 
-- 
+- Distribución Binomial y Bernoulli
+- Experimento Binomial:
+    + El experimento consiste en una serie de n ensayos idénticos.
+    + En cada ensayo hay dos resultados posibles. A uno de estos resultados se le llama
+éxito y al otro se le llama fracaso.
+    + La probabilidad de éxito, que se denota *p*, no cambia de un ensayo a otro. Por ende,
+la probabilidad de fracaso, que se denota *1-p*, tampoco cambia de un ensayo a
+otro.
+    + Los ensayos son independientes.
+- Si la variable Bernoulli toma valores 1 (éxito) y 0 (fracaso) ... **cuál su valor esperado? y su varianza?**
