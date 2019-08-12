@@ -1,0 +1,48 @@
+---
+title: "E, clase 1"
+author: "ricardo mayer"
+date: "8/12/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Usos de la estadística
+
+- Esta clase: Cap 1 de A&S 2008
+- Estadístca descriptiva vs inferencia estadística
+- Resumir características de los datos
+- Explorar una población por medio de una muestra
+- Ejemplos en economía y negocios
+
+
+
+## Datos
+
+- Elementos
+- Variables
+- Observación
+- Número de datos
+
+## Escala de medición
+
+
+- Nominales
+- Ordinales
+- De intervalo
+- Re razón
+
+
+## Tipos de variables
+
+- Cualitativa versus cuantitativa
+- Continua versus discreta
+- Sección transverla versus series de tiempo
+
+## Fuentes
+
+- Existentes
+- Estudios estadísticos
+- Errores en la adquisición de datos
